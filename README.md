@@ -36,43 +36,43 @@ cd my-app
 Install dependencies.
 
 ```bash
-pnpm install
+yarn
 ```
 
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
-pnpm run dev
+yarn dev
 ```
 
 ### Lint
 
 ```bash
-pnpm run lint
+yarn lint
 ```
 
 ### Typecheck
 
 ```bash
-pnpm run typecheck
+yarn typecheck
 ```
 
 ### Build
 
 ```bash
-pnpm run build
+yarn build
 ```
 
 ### Test
 
 ```bash
-pnpm run test
+yarn test
 ```
 
 View and interact with your tests via UI.
 
 ```bash
-pnpm run test:ui
+yarn test:ui
 ```
 
 ## License
