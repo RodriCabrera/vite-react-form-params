@@ -10,8 +10,7 @@ export const Button = ({
   disabled,
   children,
   type,
-  onClick,
-  ...props
+  onClick
 }: PropsWithChildren<ButtonProps>) => {
   return (
     <button
@@ -20,7 +19,6 @@ export const Button = ({
       className={`w-fit rounded-md border-2 border-gray-200 px-3 py-2 text-white shadow-sm ${
         disabled ? 'bg-gray-200' : 'bg-sky-950/80'
       }`}
-      {...props}
     >
       {children}
     </button>
