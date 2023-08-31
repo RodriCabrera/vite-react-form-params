@@ -16,6 +16,6 @@ jobs:
       - name: run lint
         run: yarn lint
       - name: run tests
-        run: yarn test --watchAll=false
+        run: yarn test
       - name: build
         run: yarn build
