@@ -18,7 +18,7 @@ export const SearchForm = () => {
         className="flex flex-col items-center justify-center gap-12 px-12 md:px-24"
       >
         <div className="flex flex-col gap-20 md:flex-row">
-          <div className="flex justify-between gap-6 px-2 md:gap-12">
+          <div className="flex gap-4 px-2 sm:justify-between sm:gap-6 md:gap-12">
             <UbicationIcons />
             <OriginAndDestinations />
           </div>
