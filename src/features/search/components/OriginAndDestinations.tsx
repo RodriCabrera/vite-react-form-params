@@ -50,13 +50,13 @@ export const OriginAndDestinations = () => {
               defaultValue={watchDestinations[index].flat() as City}
             />
 
-            <div className="flex h-full w-4 items-center justify-center pt-6">
-              {destinationsFields.length > 1 && (
-                <button onClick={() => remove(index)}>
-                  <img className="pb-2" src={closeIcon} />
+            {destinationsFields.length > 1 && (
+              <div className="flex h-full w-4 items-center justify-center">
+                <button onClick={() => remove(index)} className="mt-auto pb-4">
+                  <img src={closeIcon} />
                 </button>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         )
       })}

@@ -43,7 +43,7 @@ export const CitySelect = ({
   }, [])
 
   return (
-    <div className="flex w-80 flex-col gap-2">
+    <div className="flex w-64 flex-col gap-2 sm:w-80">
       <Combobox
         value={selected}
         onChange={(value) => {
