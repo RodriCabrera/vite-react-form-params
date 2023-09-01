@@ -10,7 +10,7 @@ export const Results = () => {
 
   return (
     <Card>
-      <div className="flex min-h-[250px] min-w-[800px] flex-col items-center justify-center gap-2">
+      <div className="flex min-h-[250px] flex-col items-center justify-center gap-2 sm:min-w-[800px]">
         <ResultsInfo />
         <div className="mt-auto">
           <Button type="button" onClick={() => navigate('/' + location.search)}>
