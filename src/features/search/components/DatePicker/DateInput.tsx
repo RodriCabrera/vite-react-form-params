@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 
 interface InputProps {
   className: string
