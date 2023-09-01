@@ -39,7 +39,7 @@ export const DatePicker = ({ name }: DatePickerProps) => {
         minDate={new Date()}
         customInput={
           <input
-            className="rounded-md border-2 p-2"
+            className="h-[44px] w-[110px] rounded-md border-2 p-2"
             value={watchDate}
             onChange={(e) => handleDateSelect(new Date(e.target.value))}
           />
