@@ -1,4 +1,4 @@
-name: CI
+name: CI - install, lint, test and build
 
 on:
   push:
