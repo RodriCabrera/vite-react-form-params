@@ -7,8 +7,8 @@ import { City } from 'features/common/types'
 
 const KmTag = ({ children }: PropsWithChildren) => (
   <div className="mr-2 flex items-center justify-center">
-    <img src={tagIcon} className="fixed h-7 " />
-    <span className="py-2 text-end text-indigo-400">{children}</span>
+    <img src={tagIcon} className="relative h-7" />
+    <span className="absolute py-2 text-end text-indigo-400">{children}</span>
   </div>
 )
 
